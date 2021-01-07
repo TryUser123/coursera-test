@@ -1,12 +1,17 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+
 }
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 175%;
     margin: 50px;
+}
+div{
+    position: relative;
+    padding-right: 2px;
 }
 
 p{
@@ -18,7 +23,6 @@ p{
     background-color:rgb(30, 81, 99);
     color: white;
     border: 1px black;
-    width: 90%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -32,6 +36,18 @@ span{
     border: 1px black;
     font-size: 125%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#span1{
+    background-color:rgb(129, 53, 91); color:rgb(255, 255, 255);
+}
+
+#span2{
+    background-color:rgb(198, 255, 243); color: rgb(45, 15, 63);
+}
+
+#span3{
+    background-color:rgb(219, 188, 188); color: rgb(10, 8, 32);
 }
 
 
@@ -57,20 +73,16 @@ span{
 
 /*Tablet*/
 @media (min-width: 768px) and (max-width: 991px){
-    .col-md-1, .col-md-2, .col-md-3 {
-        float:left;
-    }
-    .col-md-1 {
-        width: 33.33%;
-    }
-    .col-md-2 {
-        width: 66.66%;
-    }
-    .col-md-3 {
+    .col-md-1, .col-md-2{
+        float: left;
+      }
+      .col-md-1 {
+        width: 50%;
+      }
+      .col-md-2 {
         width: 100%;
+      }
     }
-}
-
 /*Mobile*/
 @media (max-width: 767px) {
     .col-sm-1, .col-sm-2, .col-sm-3 {
