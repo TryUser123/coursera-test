@@ -61,19 +61,3 @@
 .small a{
     text-decoration: none;
 }
-
-
-/* MD SIZE **/
-@media(min-width: 992px){
-
-}
-
-/* SM SIZE */
-@media(min-width: 768px){
- 
-}
-
-/* XS SIZE */
-@media(max-width: 767px){
-   
-}
